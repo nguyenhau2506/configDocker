@@ -23,9 +23,9 @@
     'application': True ,
     # always loaded
     'data': [
-        'security/ir.model.access.csv',
-        
         "security/management_security.xml",
+        'security/ir.model.access.csv',
+        "views/manage_view.xml",
         "views/menu_view.xml",
     ],
     # only loaded in demonstration mode
