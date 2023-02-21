@@ -16,7 +16,7 @@
                             <field name="name"></field>
                             <field name="telephoneNumber"></field>
                             <field name="created_at"></field>
-                            <field name="hidden"></field>
+                            <!-- <field name="hidden"></field> -->
                         </group>
                         <group name="group-right">
                         </group>
