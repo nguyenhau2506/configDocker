@@ -2,9 +2,6 @@
 
 from odoo import models, fields, api
 
-
-
-
 class management (models.Model):
     _name= "list.telephone.number"
     _description= "this is the list of customer telephonenumber"
