@@ -7,25 +7,25 @@
         <field name="arch" type="xml">
             <form string="view telephone">
                 <header>
-                    <button name='toggle_hidden' type='object' string='Toggle Hidden'/>
+                    <button name='toggle_hidden' type='object' string='Toggle Hidden' />
                 </header>
 
                 <sheet>
                     <group name='group-top'>
-                        <group name='group-left' >
+                        <group name='group-left'>
                             <field name="name"></field>
                             <field name="telephoneNumber"></field>
                             <field name="created_at"></field>
                             <field name="hidden"></field>
                         </group>
-                        <group name="group-right" >
+                        <group name="group-right">
                         </group>
                     </group>
                 </sheet>
             </form>
         </field>
     </record>
-    
+
     <record id="list_telephone_number_view_search" model="ir.ui.view">
         <field name="name">list.telephone.number.view.search</field>
         <field name="model">list.telephone.number</field>
@@ -38,4 +38,3 @@
     </record>
 
 </odoo>
-
