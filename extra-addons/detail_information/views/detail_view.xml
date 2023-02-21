@@ -1,0 +1,22 @@
+<odoo>
+
+    <record id="detail_infor" model="ir.ui.view">
+        <field name="name">Detail from</field>
+        <field name="model">detail.information</field>
+        <field name="arch" type="xml">
+            <form string="Detail">
+                <sheet>
+                    <group>
+
+                        <!-- <field name="name" /> -->
+                        <field name="age" />
+                        <field name="is_available" />
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+
+    </record>
+
+</odoo>

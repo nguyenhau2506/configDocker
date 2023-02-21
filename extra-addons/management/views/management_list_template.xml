@@ -1,0 +1,16 @@
+<odoo>
+
+    <template id="management_list_template" name="list tel">
+        <div id="wrap" class="container">
+        <h1> List telephone</h1>
+      <t t-foreach="managers" t-as="manager">
+            <div class="row">
+                <span t-field="manager.name" />,
+                <span t-field="manager.telephoneNumber" />,
+                <span t-field="manager.created_at" />
+            </div>
+      </t>
+      </div>
+    </template>
+
+</odoo>

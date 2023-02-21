@@ -1,0 +1,11 @@
+<odoo>
+    <menuitem id="base_menu" name="listManagement"/>
+
+    <record id="action_list" model="ir.actions.act_window">
+        <field name="name">Management tel</field>
+        <field name="res_model">list.telephone.number</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+<menuitem id="sub_menu" name="list Managements" parent="base_menu" action="action_list"/>
+
+</odoo>

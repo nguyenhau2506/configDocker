@@ -1,0 +1,13 @@
+<odoo>
+    <record id="detail_information_customer" model="ir.actions.act_window">
+        <field name="name">Detail information</field>
+        <field name="res_model">detail.information</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem
+        id="detail_information_menu"
+        name="detail"
+        parent="management.base_menu"
+        action="detail_information_customer"
+        />
+</odoo>
