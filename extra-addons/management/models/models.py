@@ -6,8 +6,8 @@ class management (models.Model):
     _name= "list.telephone.number"
     _description= "this is the list of customer telephonenumber"
 
-    name= fields.Char("Name",required=True)
-    telephoneNumber= fields.Char("tel",required=True)
+    name= fields.Char("Name",required=False)
+    telephoneNumber= fields.Char("tel",required=False)
     created_at=fields.Date()
     def toggle_hidden(self):
         self.ensure_one()

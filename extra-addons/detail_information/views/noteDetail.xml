@@ -1,0 +1,15 @@
+<odoo>
+    <record id="note" model="ir.ui.view">
+        <field name="name">note detail information</field>
+        <field name="model">list.telephone.number</field>
+        <field name="inherit_id" ref="management.manage_view_form" />
+        <field name="arch" type="xml">
+
+            <field name="telephoneNumber" position="after">
+                <field name="note_id" widget="many2one_tags" />
+            </field>
+
+        </field>
+    </record>
+
+</odoo>
